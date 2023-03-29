@@ -1,0 +1,43 @@
+.table-suboncard {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top-style: solid;
+	border-top-width: 12px;
+	border-top-color: transparent;	
+	border-bottom-style: solid;
+	border-bottom-width: 12px;
+	border-bottom-color: transparent;	
+}
+
+.table-suboncard td:nth-child(1) {
+	font-size: .8em;
+	padding-right: 25px;
+	text-align: left;
+	background-color: rgba(190, 190, 190, 0.1)!important;
+	border: 0;
+	padding-top: 0;
+}
+
+
+/* if Plugin "SubTaskDuedate is available, format date column */
+.table-suboncard td:nth-child(2) {
+	font-size: .8em;
+	padding-right: 4px;
+	background-color: rgba(190, 190, 190, 0.1)!important;
+	border: 0;
+	padding-top: 0;	
+}
+
+/* nested html tags from Kanboard subtaskhelper are somehow complicated to format */
+.table-suboncard .js-subtask-toggle-status {
+	display: unset;
+}
+
+.table-suboncard .subtask-title i {
+	display: flex;
+	margin-left: 4px;
+}
+
+.table-suboncard .subtask-title a {
+	display: -webkit-box;
+}
